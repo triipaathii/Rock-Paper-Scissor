@@ -41,10 +41,12 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun RockPaperScissorScreen() {
 
+    // Here we will store user choice
     var userChoice by remember {
         mutableStateOf(0)
     }
 
+    // here we will store randomly generated choice
     var androidChoice by remember {
         mutableStateOf(0)
     }
@@ -57,6 +59,7 @@ fun RockPaperScissorScreen() {
         mutableStateOf(0)
     }
 
+    // To make sure game started or not
     var gameStart by remember {
         mutableStateOf(false)
     }
@@ -217,6 +220,7 @@ fun RockPaperScissorScreen() {
     }
 }
 
+// This function created to give result
 private fun checkResult(userChoice: Int, androidChoice: Int): String? {
     when (userChoice) {
         0 -> {
@@ -261,7 +265,7 @@ private fun checkResult(userChoice: Int, androidChoice: Int): String? {
     }
 }
 
-// Button
+// Button function
 @Composable
 fun PressableButton(modifier: Modifier = Modifier, @StringRes label: Int, onTap: () -> Unit){
     Button(
