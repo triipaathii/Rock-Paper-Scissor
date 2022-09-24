@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RockPaperScissor</string>
+    <string name="rock">Rock</string>
+    <string name="paper">Paper</string>
+    <string name="scissor">Scissor</string>
+    <string name="score">Score</string>
+    <string name="start">START</string>
+    <string name="you_chose">You chose</string>
+    <string name="android_chose">Android Chose</string>
+    <string name="jetpack_compose_hashtag">#JetpackCompose</string>
+</resources>
