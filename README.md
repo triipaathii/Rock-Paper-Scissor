@@ -1,8 +1,8 @@
 
 # Rock Paper Scissor Android App
 
-Everyone hopefully you all enjoyed and learned a bit in the compose camp .
-So , this is the repo of the app named"ROCK PAPER SCISSOR" , and after building up this app , don't forget to share it on various social media platforms by mentioning gdsc nith along with it. See yaa all 
+Everyone hopefully you all enjoyed and learned a bit in the compose camp.
+So, this is the repo of the app named "ROCK PAPER SCISSOR", and after building up this app, don't forget to share it on various social media platforms by mentioning GDSC NITH & including #composecamp along with it. See yaa all !!!
 
 
 # Overview of Gameplay
